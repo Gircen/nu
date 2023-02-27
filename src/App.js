@@ -4,6 +4,8 @@ import {getUrlVars, route} from "./routing/routing";
 import Header from "./header/js/header";
 import Footer from "./footer/js/footer"
 import './App.css';
+import MainTab from "./tabs/MainTabs";
+import Container from "react-bootstrap/Container";
 
 function App() {
   window.onload = function() {
@@ -14,10 +16,8 @@ function App() {
 
           <script type="text/javascript">route(getUrlVars());</script>
           <Header/>
+          <MainTab/>
 
-          <Card.Body>
-
-          </Card.Body>
 
         <Card.Footer><Footer/></Card.Footer>
       </div>

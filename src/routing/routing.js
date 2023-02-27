@@ -1,9 +1,9 @@
 
 
 export function UpHome(){
-    var text = document.getElementById('text');
-    text.innerHTML="Добро пожаловать!"
-    text.style.opacity=0.7;
+    // var text = document.getElementById('text');
+    // text.innerHTML="Добро пожаловать!"
+    // text.style.opacity=0.7;
 }
 
 export function getUrlVars() {

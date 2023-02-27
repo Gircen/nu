@@ -3,9 +3,6 @@
     max-width: 999999px;
 }
 .my-container-header{
-    position: fixed;
-    top: 0;
-    z-index: 2;
     width: 100%;
     max-width: 999999px;
 }

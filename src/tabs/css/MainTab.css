@@ -1,0 +1,6 @@
+.my-container-center {
+    max-height: 100%;
+    padding: 30px;
+    display: block;               /* 2 */
+    top: 8%;
+}

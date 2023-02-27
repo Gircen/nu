@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 
 function TableReq() {
     return (
-        <Table striped bordered hover variant="dark">
+        <Table striped bordered="true" hover variant="white">
             <thead>
             <tr>
                 <th>№</th>
@@ -13,7 +13,6 @@ function TableReq() {
             </tr>
             </thead>
             <tbody>
-
             </tbody>
         </Table>
     );
