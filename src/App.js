@@ -1,5 +1,8 @@
 import logo from './logo.svg';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
 import React, { useEffect, useState } from "react";
+import {getUrlVars, route} from "./routing/routing";
 import './App.css';
 
 function App() {
@@ -8,15 +11,12 @@ function App() {
   };
   return (
       <div >
-        <Header/>
-
-        <MText/>
         <script type="text/javascript">route(getUrlVars());</script>
         <Card.Body>
-          <Background/>
+
         </Card.Body>
 
-        <Card.Footer><Footer/></Card.Footer>
+        <Card.Footer></Card.Footer>
       </div>
   );
 }
