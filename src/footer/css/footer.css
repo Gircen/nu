@@ -1,0 +1,11 @@
+.footer {
+    backgroundColor: 'rgba(0, 0, 0, 0.2)';
+    z-index: 2;
+}
+.myCF{
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    max-width: 999999px;
+}

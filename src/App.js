@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import React, { useEffect, useState } from "react";
 import {getUrlVars, route} from "./routing/routing";
 import Header from "./header/js/header";
-import TableReq from "./table/TableInterdepartmentalRequests"
+import Footer from "./footer/js/footer"
 import './App.css';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 
           </Card.Body>
 
-        <Card.Footer></Card.Footer>
+        <Card.Footer><Footer/></Card.Footer>
       </div>
   );
 }
