@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
 import React, { useEffect, useState } from "react";
 import {getUrlVars, route} from "./routing/routing";
+import TableReq from "./table/TableInterdepartmentalRequests"
 import './App.css';
 
 function App() {
