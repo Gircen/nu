@@ -6,6 +6,7 @@ import Footer from "./footer/js/footer"
 import './App.css';
 import MainTab from "./tabs/MainTabs";
 import Container from "react-bootstrap/Container";
+import TableReq from "./table/TableInterdepartmentalRequests";
 
 function App() {
   window.onload = function() {
@@ -16,7 +17,8 @@ function App() {
 
           <script type="text/javascript">route(getUrlVars());</script>
           <Header/>
-          <MainTab/>
+          <TableReq />
+          {/*<MainTab/>*/}
 
 
         <Card.Footer><Footer/></Card.Footer>

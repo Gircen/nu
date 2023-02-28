@@ -1,6 +1,4 @@
 import Tabs from 'react-bootstrap/Tabs';
-import TabHome from "./TabInterdepartmentalRequests";
-import Container from "react-bootstrap/Container";
 import '../tabs/css/MainTab.css'
 import TableReq from "../table/TableInterdepartmentalRequests";
 import Tab from "react-bootstrap/Tab";

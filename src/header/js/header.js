@@ -23,8 +23,8 @@ function Brand() {
 function Header() {
 
     return (
-        <Container className="my-container-header">
-            <Navbar  bg="dark" variant="dark" expand="lg">
+        // <Container className="my-container-header">
+            <Navbar className="my-container-header"  bg="dark" variant="dark" expand="lg">
                 <Container>
                     <Brand/>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +35,7 @@ function Header() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            </Container>
+            // </Container>
     );
 }
 
